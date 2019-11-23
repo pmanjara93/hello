@@ -1,0 +1,17 @@
+{
+    "name": "tb/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hit tb",
+            "email": "abcd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"tb\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
